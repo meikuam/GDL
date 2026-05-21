@@ -1,0 +1,9 @@
+[project]
+name = "gdl"
+version = "0.1.0"
+description = "Development repository for Generative Deep Learning book"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "torch>=2.12.0",
+]
