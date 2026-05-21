@@ -1,9 +1,17 @@
 [project]
 name = "gdl"
 version = "0.1.0"
+authors = [
+    { name = "Beresnev Aleksei", email = "meikuam@gmail.com" }
+]
 description = "Development repository for Generative Deep Learning book"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = "~=3.13.0"
 dependencies = [
+    "diffusers>=0.37.1",
+    "jupyterlab>=4.5.7",
+    "keras>=3.14.1",
+    "matplotlib>=3.10.9",
+    "tensorflow[and-cuda]>=2.21.0",
     "torch>=2.12.0",
 ]
