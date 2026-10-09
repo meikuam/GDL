@@ -15,4 +15,5 @@ dependencies = [
     "scikit-image>=0.26.0",
     "tensorflow[and-cuda]>=2.21.0",
     "torch>=2.12.0",
+    "torchvision>=0.27.0",
 ]
